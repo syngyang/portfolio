@@ -9,5 +9,6 @@ export interface fullBlog {
     currentSlug: string,
     title: string,
     content: any,
+    link:any,
     titleImage: any,
 }

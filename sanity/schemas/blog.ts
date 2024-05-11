@@ -27,6 +27,11 @@ export default {
         title:'Small Description'
       },
       {
+        name:'link',
+        type:'string',
+        title:'Link'
+      },
+      {
         name:'content',
         type:'array',
         title:'Content',
