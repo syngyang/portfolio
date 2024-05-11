@@ -26,17 +26,29 @@ export default async function Home() {
   return (
     <div className="grid grid-cols-1 mt-5 gap-5">
       <div className="w-full">
-        <p className="">
+        <p >
           <span className="text-primary">GitHub</span>:
-          https://github.com/syngyang{" "}
+          <span className="hover:text-red-500 ml-4">
+            <a href="https://github.com/syngyang" target="_blank">
+              https://github.com/syngyang.com
+            </a>
+          </span>
         </p>
         <p className="">
           <span className="text-primary">App related</span> :
-          https://bill-splitor.tistory.com{" "}
+          <span className="hover:text-red-500 ml-4">
+            <a href="https://bill-splitor.tistory.com" target="_blank">
+            https://bill-splitor.tistory.com
+            </a>
+          </span>
         </p>
         <p className="">
           <span className="text-primary">Web related</span> :
-          https://polyframe.tistory.com
+          <span className="hover:text-red-500 ml-4">
+            <a href="https://polyframe.tistory.com" target="_blank">
+            https://polyframe.tistory.com
+            </a>
+          </span>
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 mt-5 mb-5 gap-5">
